@@ -36,7 +36,7 @@ jobs:
             echo "Got secret something else"
           fi
         env: 
-          HERO_SECURE: ${{ secrets.JAI_BALAYYA }}
+          HERO: ${{ secrets.JAI_BALAYYA }}
           HEROINE_SECURE: ${{ secrets.JAI_JAI_SRUTHI }}
           
 
